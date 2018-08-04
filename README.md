@@ -19,7 +19,7 @@ Then use the following links to install.
 
 To reset the language
 ----------------------
-go to this url : <a href="https://wmebr.info/ur/purs_on_state.php#reset-WMEBR-editor-level">https://wmebr.info/ur/purs_on_state.php#reset-WMEBR-editor-level</a>
+click on the link in the upper menu
 
 If you find any issue
 ---------------------
@@ -36,3 +36,4 @@ Todos/Issues
 Changelog
 ---------
 * 2018.08.04.01 - Add a link to reset the editor level
+* 2018.08.04.02 - Adding a link ion the top menu
