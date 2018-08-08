@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           WMEBR Filter
-// @namespace      https://www.bowlman.org
+// @namespace      https://gitlab.com/WMEScripts
 // @description    Filter the PURs results on the wmebr website to only show what we can handle
 // @match          https://wmebr.info/ur/purs_on_state.php*
 // @version        2018.08.04.02
