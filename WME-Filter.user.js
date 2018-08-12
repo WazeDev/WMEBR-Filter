@@ -3,7 +3,7 @@
 // @namespace      https://gitlab.com/WMEScripts
 // @description    Filter the PURs results on the wmebr website to only show what we can handle
 // @match          https://wmebr.info/ur/purs_on_state.php*
-// @version        2018.08.04.02
+// @version        2018.08.12.01
 // @author         tunisiano187 '2018
 // @license        MIT/BSD/X11
 // @compatible     chrome firefox
@@ -11,6 +11,19 @@
 // @contributionURL http://ko-fi.com/tunisiano
 // @grant          none
 // ==/UserScript==
+
+    ///////////////////////////////////////
+    //  Verification de la mise à jour   //
+    ///////////////////////////////////////
+    var WMEFilterUpdateNotes = "Nouvelle version de WMEFilter : " + WMEFilterVersion;
+    if (localStorage.getItem('WMEFilterVersion') === WMEFilterVersion && 'WMEFilterVersion' in localStorage) {
+
+    } else if ('WMEFilterVersion' in localStorage) {
+        alert(WMEFilterUpdateNotes);
+        localStorage.setItem('WMEFilterVersion', WMEFilterVersion);
+    } else {
+        localStorage.setItem('WMEFilterVersion', WMEFilterVersion);
+    }
 
 (function() {
     'use strict';
