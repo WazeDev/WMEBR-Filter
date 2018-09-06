@@ -3,7 +3,7 @@
 // @namespace      https://gitlab.com/WMEScripts
 // @description    Filter the PURs results on the wmebr website to only show what we can handle
 // @match          https://wmebr.info/ur/purs_on_state.php*
-// @version        2018.08.12.02
+// @version        2018.09.06.01
 // @author         tunisiano187 '2018
 // @license        MIT/BSD/X11
 // @compatible     chrome firefox
@@ -40,7 +40,7 @@
         window.location.href = fullpath;
     }
     // Adding the link to the menu
-    $("#navbar ul.navbar-nav").append('<li><a href="purs_on_state.php#reset-WMEBR-editor-level">Reset editor level</a></li>');
+    $("#navbar ul.navbar-nav").append('<li><a href="purs_on_state.php#reset-WMEBR-editor-level">Reset editor level (' + localStorage.getItem('WME-editor-level') + ')</a></li>');
 
     // Getting the last query
     fullpath = window.location.pathname+window.location.search;
