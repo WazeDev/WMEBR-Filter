@@ -36,3 +36,4 @@ Changelog
 * 2018.08.04.01 - Add a link to reset the editor level
 * 2018.08.04.02 - Adding a link ion the top menu
 * 2018.08.12.01 - Adding version tracker and alert on new version
+* 2018.09.06.01 - Adding the level on the right of the title
