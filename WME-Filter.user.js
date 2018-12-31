@@ -3,8 +3,8 @@
 // @namespace      https://gitlab.com/WMEScripts
 // @description    Filter the PURs results on the wmebr website to only show what we can handle
 // @match          https://wmebr.info/ur/purs_on_state.php*
-// @version        2018.09.06.01
-// @author         tunisiano187 '2018
+// @version        2018.12.31.01
+// @author         tunisiano18 '2018
 // @license        MIT/BSD/X11
 // @compatible     chrome firefox
 // @supportURL      mailto:incoming+WMEScripts/WME-language-forcer@incoming.gitlab.com
